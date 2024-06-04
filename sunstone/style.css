@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    background-color:white;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+nav img{
+    height:90px;
+    width:138px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+nav img:hover{
+    box-shadow: 0 0 20px 0px;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 9px 10px;
+    list-style: none;
+    position:relative;
+}
+.nav-links ul li a{
+    font-size:19px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-links img{
+    height: 45px;
+    width: 50px;
+}
+.nav-links button{
+    color: white;
+    background-color: darkblue;
+    font-size: 18px;
+    height: 39px;
+    width: 123px;
+    border-radius:5px;
+}
+.nav-links button:hover{
+    background-color: orange;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px;
+}
+.nav-links ul li::after{
+    content:'';
+    transition: 0.5s;
+    background-color: red;
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 2.5px;
+   
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.about{
+    margin-top:35px;
+    background-color: rgb(241, 241, 219);
+    height: 950px;
+}
+.about h1{
+    font-size: 57px;
+    color:black;
+    margin-left: 95px;
+}
+.about strong{
+    font-size: 57px;
+    color: rgb(215, 156, 6);
+}
+.about img{
+    height: 250px;
+    width: 350px;
+    margin-left: 95px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.column{
+    flex-basis:30%;
+    background:rgb(229, 165, 3);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.column h3{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.column:hover{
+    box-shadow: 0 0 20px 0px;
+}
+.about h2{
+    margin-top: 35px;
+    font-size: 41px;
+    margin-left: 22px;
+}
+.about button{
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;
+    background:white;
+    color:goldenrod;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-top: 18px;
+    transition: 1s;
+    cursor: pointer; 
+}
+.about button:hover{
+    box-shadow: 0 0 20px 0px;
+}
+.ctn{
+    margin-top: 18px;
+    margin-left:8px;
+    margin-bottom: 35px;
+}
+.ctn button{
+    height: 68px;
+    width: 265px;
+    font-size:19px;
+    color: white;
+    background-color:darkblue;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.ctn button:hover{
+    box-shadow: 0 0 20px 0px;
+    background-color: red;
+}
+.college{
+    margin-top: 70px;
+    background-color:lightgrey;
+    height: 100px;
+}
+.college h1{
+    font-size: 30px;
+    color: darkblue;
+    margin-left: 45px;
+}
+.college p{
+    font-size:19px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.college:hover{
+    background-color: lightcyan;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px;
+}
+.company{
+    margin-top: 70px;
+}
+.company h4{
+    font-size: 58px;
+    font-weight: bold;
+    color:red;
+    margin-left: 5px;
+}
+.company h5{
+    font-size: 40px;
+    color: darkblue;
+    text-align: center;
+    margin-top: 15px;
+}
+.company b{
+    font-size: 54px;
+    color: goldenrod;
+}
+.company img{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    padding: 15px;
+}
+.awards{
+    margin-top: 70px;
+    background-color: antiquewhite;
+    height:350px;
+}
+.awards h6{
+    font-size:65px;
+    color: darkblue;
+    text-align: center;
+}
+.awards b{
+    font-size:58px;
+    color: goldenrod;
+}
+.awards1{
+    display: inline-flex;
+    flex-basis: 34%;
+    position: relative; 
+}
+.awards1 button{
+    height: 200px;
+    width: 300px;
+    border-radius: 16px;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 27px;
+}
+.awards1 button:hover{
+    box-shadow: 0 0 20px 0px;
+    background: lightpink;
+}
+.awards1 button img{
+    width: 100px;
+    border-radius: 25px;
+}
+.awards1 button p{
+    font-size: 17px;
+    color:darkblue ;
+}
+.job{
+    margin-top: 80px;
+    background-color: beige;
+}
+.job h1{
+    font-size:38px;
+    color: darkblue;
+    text-align: center;
+}
+.job h2{
+    font-size: 72px;
+    color: goldenrod;
+    text-align: center;  
+}
+.job p{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.job ol li{
+    font-size: 40px;
+    color: darkblue;
+    text-align: center;
+    margin-top: 25px;
+}
+.job ul li{
+    font-size: 32px;
+    color:goldenrod;
+    margin-bottom: 17px;
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 15vh;
+    width: 100%;
+    color: rgb(247, 10, 10);
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:lightgreen;
+}
+.logo h2{
+    font-size: 30px;
+    color: blue;
+    margin-top: 30px;
+}
+.images{
+    height: 85vh;
+    width: 100%;
+} 
+.images img{
+    height: 700px;
+    width: 1200px;
+}

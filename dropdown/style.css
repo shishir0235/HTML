@@ -1,0 +1,99 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+.navbar a{
+    font-size: 35px;
+    list-style: none;
+    text-decoration: none;
+    padding:25px;
+    justify-content: space-between;
+    text-align: center;
+    transition: ease-in-out 1s;
+}
+.one{
+    overflow: hidden;
+}
+.one button{ 
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.two{
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+.two a{
+    display:block;
+    float: none;
+    text-decoration: none;
+    padding: 10px 8px;
+}
+.two a:hover{
+    background-color:goldenrod;
+}
+.one:hover .two{
+    display: block;
+}
+.three button{
+    font-size: 35px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.four{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    background-color: #f9f9f9;
+}
+.four a{
+    display: block;
+    float: none;
+    text-decoration: none;
+    padding: 12px 10px;
+}
+.four a:hover{
+    background-color: goldenrod;
+}
+.three:hover .four{
+    display: block;
+}
+.dropdown{
+    overflow: hidden;
+    float: left;
+}
+.dropdown .btn{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+.content a{
+    display:block;
+    float: none;
+    text-decoration: none;
+    padding: 10px 8px;
+}
+.content a:hover{
+    background-color:goldenrod;
+}
+.dropdown:hover .content{
+    display: block;
+}

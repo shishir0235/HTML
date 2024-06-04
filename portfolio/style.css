@@ -1,0 +1,20 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.header{
+    font-size: large;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar{
+    display: inline-flex;
+    top: 0;
+    padding: 4% 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}

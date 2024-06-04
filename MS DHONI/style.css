@@ -1,0 +1,49 @@
+.content img{
+    border-radius: 50%;
+    width: 20%;
+    height: 60vh;
+}
+.content h1{
+    color: gold;
+    font-size:50px;
+    text-align:end;
+}
+.content h4{
+    color: gold;
+    font-size: 40px;
+    text-align:end;
+}
+.top_section h2{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+.top_section p{
+    color: rgba(128, 7, 221, 0.928);
+    font-size: 21px;
+}
+.middle_section h3{
+    color: red;
+    font-size:40px;
+    text-align: center;
+}
+.middle_section ul{
+    color:purple;
+    font-size: 25px;
+}
+.middle_section li{
+    color:rgb(246, 153, 4);
+    font-size: 20px;
+}
+.middle_section p{
+    color: rgb(9, 84, 176);
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer button{
+    color: rgb(108, 5, 219);
+    font-size: 20px;
+}

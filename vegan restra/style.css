@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav ul li{
+    display: inline-flex;
+    margin: 0;
+    border: 2px;
+    background-color: orange;
+
+}
+.nav ul li a{
+    font-size: 25px;
+    color: red;
+    content: '';
+
+}

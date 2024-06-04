@@ -1,0 +1,7 @@
+.city{
+    background-color: rgb(226, 218, 216);
+    color: rgb(8, 53, 215);
+    border: 2px solid black;
+    height: 30vh;
+    width: 100%;
+}

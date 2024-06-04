@@ -1,0 +1,20 @@
+.topnav{
+    background-color: rgb(204, 157, 204);
+    overflow: hidden;
+    height: 100vh;
+}
+.topnav a{
+    background-color: rgb(23, 175, 6);
+    color: white;
+    font-size:xx-large;
+    text-align: left;
+    text-decoration: dotted;
+    cursor: pointer;
+    padding: 4px 4px;
+}
+.topnav a:hover{
+    background-color: rgb(247, 21, 32);
+}
+.tonav a.active{
+    background-color:yellow;
+}
